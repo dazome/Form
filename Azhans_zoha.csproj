@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0-windows\Azhans_zoha.deps.json" />
+    <Content Include="bin\Debug\net8.0-windows\Azhans_zoha.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Database1.mdf" />
+    <None Include="bin\Debug\Database1_log.ldf" />
+    <None Include="bin\Debug\net8.0-windows\Azhans_zoha.dll" />
+    <None Include="bin\Debug\net8.0-windows\Azhans_zoha.exe" />
+    <None Include="bin\Debug\net8.0-windows\Azhans_zoha.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+</Project>
